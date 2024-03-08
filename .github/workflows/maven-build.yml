@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    runs-on: warp-ubuntu-latest-x64-2x
+    runs-on: warp-ubuntu-latest-x64-4x
     steps:
       - name: Check out the code
         uses: actions/checkout@v2
